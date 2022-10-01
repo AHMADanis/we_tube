@@ -3,10 +3,10 @@ import "./VideoCard.css";
 import {Link} from 'react-router-dom';
 
 
-function VideoCard({ image, title, channel, views, channelImage}) {
+function VideoCard({ image, title, channel, views, channelImage, }) {
   return (
     <div className="videoCard">
-    <Link className="video_link" to="/PlayBack">
+      <Link className="video_link" to="/PlayBack">
       <img className="videoCard__thumbnail" src={image} alt="" />
       <div className="videoCard__info">
         <img

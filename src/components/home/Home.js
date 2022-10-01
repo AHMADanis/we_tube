@@ -21,6 +21,7 @@ function Home() {
         channelImage={item.channelThumbnail}
         channel={item.channelName}
         image={item.videoThumbnail}
+             
              />
       )}
        )}

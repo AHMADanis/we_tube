@@ -1,25 +1,21 @@
 import React from "react";
+import ReactPlayer from 'react-player'
+import "./PlayBack.css";
 
-
-import data from '../../db/data.json'
 
 function Playback() {
   return (
-    <div>
-      {
-       data && data.map(item=>
-    {
-      return(
-        <video controls width="100%">
-      <source src={item.videoId} type="video/mp4" />
-      Sorry, your browser doesn't support embedded videos.
-    </video>
-      )
-    }
-       )}
-    
-    </div>
+      <div className='player-wrapper'>
+        <ReactPlayer
+          className='react-player'
+          url='https://www.youtube.com/watch?v=bEzbim8peGU'
+          width='100%'
+          height='100%'
+        />
+      </div>
   );
 }
 
 export default Playback;
+
+
