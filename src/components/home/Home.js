@@ -2,7 +2,6 @@ import React from "react";
 import "./Home.css";
 import VideoCard from "./VideoCard";
 
-
 import data from '../../db/data.json'
 
 function Home() {
@@ -15,14 +14,14 @@ function Home() {
       {
        data && data.map(item=>
     {
-      return(
+         return (
         <VideoCard
         title={item.videoName}
         views={item.views}
         channelImage={item.channelThumbnail}
         channel={item.channelName}
         image={item.videoThumbnail}
-      />
+             />
       )}
        )}
       </div>

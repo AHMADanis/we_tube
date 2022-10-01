@@ -34,3 +34,8 @@
     width: 30px !important;
     border-radius: 50%;
 }
+
+.video_link{
+    color: black;
+    text-decoration: none;
+}

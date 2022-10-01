@@ -1,8 +1,8 @@
 import React from "react";
 import "./SearchPage.css";
 import TuneIcon from "@mui/icons-material/Tune";
-import ChannelRow from "./ChannelRow";
 import VideoRow from "./VideoRow";
+
 
 import data from '../../db/data.json'
 

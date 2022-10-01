@@ -6,7 +6,6 @@ import data from '../../db/data.json'
 function Playback() {
   return (
     <div>
-     
       {
        data && data.map(item=>
     {

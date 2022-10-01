@@ -32,7 +32,7 @@ function App() {
             ]}
           ></Route>
            <Route
-            path="/"
+            path="/playback"
             element={[
               <div className="app__page">
                 <PlayBack /> 
